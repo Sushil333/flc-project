@@ -2,7 +2,7 @@
   <div>
     <Navbar />
 
-    <div class="container_full background_bg">
+    <div class="container_full">
       <div class="col-md-5 top_space">
         <div class="top_left_section">
           <Hidd
@@ -35,6 +35,18 @@
           <h1>My Assets</h1>
 
           <div class="right_section_in_full">
+            <div class="right_section_in">
+              <VCard qty="xxxx" hdd="xxxx" />
+            </div>
+            <div class="right_section_in">
+              <VCard qty="xxxx" hdd="xxxx" />
+            </div>
+            <div class="right_section_in">
+              <VCard qty="xxxx" hdd="xxxx" />
+            </div>
+            <div class="right_section_in">
+              <VCard qty="xxxx" hdd="xxxx" />
+            </div>
             <div class="right_section_in">
               <VCard qty="xxxx" hdd="xxxx" />
             </div>
