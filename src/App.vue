@@ -17,7 +17,7 @@
         <div class="roylity_top">
           <h1>Royalty Cards</h1>
 
-          <div class="roylity_top_in d-flex d-md-block d-lg-flex">
+          <div class="roylity_top_in res-grid">
             <div class="image_box">
               <VCard qty="xxxx" hdd="xxxx" />
             </div>
@@ -35,6 +35,30 @@
           <h1>My Assets</h1>
 
           <div class="right_section_in_full">
+            <div class="right_section_in">
+              <VCard qty="xxxx" hdd="xxxx" />
+            </div>
+            <div class="right_section_in">
+              <VCard qty="xxxx" hdd="xxxx" />
+            </div>
+            <div class="right_section_in">
+              <VCard qty="xxxx" hdd="xxxx" />
+            </div>
+            <div class="right_section_in">
+              <VCard qty="xxxx" hdd="xxxx" />
+            </div>
+            <div class="right_section_in">
+              <VCard qty="xxxx" hdd="xxxx" />
+            </div>
+            <div class="right_section_in">
+              <VCard qty="xxxx" hdd="xxxx" />
+            </div>
+            <div class="right_section_in">
+              <VCard qty="xxxx" hdd="xxxx" />
+            </div>
+            <div class="right_section_in">
+              <VCard qty="xxxx" hdd="xxxx" />
+            </div>
             <div class="right_section_in">
               <VCard qty="xxxx" hdd="xxxx" />
             </div>

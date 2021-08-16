@@ -9,7 +9,7 @@
 export default {
     name: 'VCard',
     props: {
-        qty: Number,
+        qty: String,
         hidd: String
     }
 };

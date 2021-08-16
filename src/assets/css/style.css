@@ -110,7 +110,6 @@ a.button_blue {
   width: 100%;
 }
 
-
 .image_box {
   width: 31%;
   display: inline-block;
@@ -317,12 +316,34 @@ a.button_blue {
     max-width: 100% !important;
   }
   .image_box {
-      width: none;
+    width: none;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .col-md-7.right_sec {
     max-width: 100%;
+  }
+  .res-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .res-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .res-grid {
+    display: flex;
+  }
+  .right_section_in {
+    width: 22%;
   }
 }
