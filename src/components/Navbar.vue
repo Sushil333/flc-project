@@ -1,9 +1,18 @@
 <template>
   <nav class="navbar sticky-top navbar-expand-lg bg-dark">
-    <div class="container_full">
-      <a class="navbar-brand" href="#"><img src="@/assets/images/logo.png" alt="logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container_full d-flex justify-content-between align-items-center">
+      <a class="navbar-brand" href="#"
+        ><img src="@/assets/images/logo.png" alt="logo"
+      /></a>
+      <button
+        class="navbar-toggler mt-0 "
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <i class="fas fa-bars"></i>
       </button>
 
@@ -33,7 +42,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Media</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="#">Login</a>
           </li>
@@ -45,11 +53,16 @@
 
 <script>
 export default {
-  name: 'Navbar',
-}
+  name: "Navbar",
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+@media only screen and (max-width: 1440px) {
+  a.navbar-brand img {
+    width: 60%;
+    margin-top: 11px;
+  }
+}
 </style>
