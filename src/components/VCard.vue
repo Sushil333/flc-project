@@ -1,9 +1,9 @@
 <template>
-  <div class="mb-3 mb-md-2">
+  <div class="cardCol mb-3 mb-md-2">
     <img src="@/assets/images/box.png" />
     <h1>Qty: xxxx <span>HIDD:xxxx </span></h1>
   </div>
-</template>
+</template> 
 
 <script>
 export default {

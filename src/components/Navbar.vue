@@ -1,52 +1,54 @@
 <template>
   <nav class="navbar sticky-top navbar-expand-lg bg-dark">
-    <div class="container_full">
-      <div class="d-md-block d-flex">
-        <a class="navbar-brand" href="#">
-          <img src="@/assets/images/logo.png" alt="logo" />
-        </a>
-        <button
-          class="navbar-toggler border-0 ml-auto hidden-sm-up float-xs-right"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto w-100 justify-content-end">
-          <li class="nav-item active">
-            <a class="nav-link active" href="#"> Home </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">NFT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">HIDD Token</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Roadmap</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Media</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Login</a>
-          </li>
-        </ul>
+    <div class="mainOuter">
+      <div class="container_full d-lg-flex">
+        <div class="d-md-block mbLogo">
+          <a class="navbar-brand" href="#">
+            <img src="@/assets/images/logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler border-0 ml-auto hidden-sm-up float-xs-right"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto w-100 justify-content-end">
+            <li class="nav-item active">
+              <a class="nav-link active" href="#"> Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">NFT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">HIDD Token</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Roadmap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
