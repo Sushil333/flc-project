@@ -1,21 +1,22 @@
 <template>
   <nav class="navbar sticky-top navbar-expand-lg bg-dark">
-    <div class="container_full d-flex justify-content-between align-items-center">
-      <a class="navbar-brand" href="#"
-        ><img src="@/assets/images/logo.png" alt="logo"
-      /></a>
-      <button
-        class="navbar-toggler mt-0 "
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <i class="fas fa-bars"></i>
-      </button>
-
+    <div class="container_full">
+      <div class="d-md-block d-flex">
+        <a class="navbar-brand" href="#">
+          <img src="@/assets/images/logo.png" alt="logo"/>
+        </a>
+        <button
+          class="navbar-toggler ml-auto hidden-sm-up float-xs-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto w-100 justify-content-end">
           <li class="nav-item active">
@@ -65,4 +66,21 @@ export default {
     margin-top: 11px;
   }
 }
+@media only screen and (max-width: 768px) {
+  a.navbar-brand img {
+    width: 60%;
+    margin-top: 0px;
+  }
+  button.navbar-toggler {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  button.navbar-toggler {
+    margin-top: 0px;
+  }
+}
+
+
 </style>
