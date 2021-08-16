@@ -3,10 +3,10 @@
     <div class="container_full">
       <div class="d-md-block d-flex">
         <a class="navbar-brand" href="#">
-          <img src="@/assets/images/logo.png" alt="logo"/>
+          <img src="@/assets/images/logo.png" alt="logo" />
         </a>
         <button
-          class="navbar-toggler ml-auto hidden-sm-up float-xs-right"
+          class="navbar-toggler border-0 ml-auto hidden-sm-up float-xs-right"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -60,6 +60,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+button.navbar-toggler:focus {
+  outline: none;
+  border: none;
+}
 @media only screen and (max-width: 1440px) {
   a.navbar-brand img {
     width: 60%;
@@ -81,6 +85,4 @@ export default {
     margin-top: 0px;
   }
 }
-
-
 </style>
